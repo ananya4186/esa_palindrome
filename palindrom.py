@@ -1,6 +1,11 @@
 def is_palindrome(text):
-    return text == text[::-1]
+    if text == text[::-1]:
+        print(f"{text} is palindrome")
+        return True
+    else:
+        print(f"{text} is not palindrome")
+        return False
 
 if __name__ == "__main__":
-    text = input()
-    print(is_palindrome(text))
+    text = input("Enter a text: ")
+    is_palindrome(text)
