@@ -1,5 +1,5 @@
 import pytest
-from palindrom import is_palindrom
+from palindrom import is_palindrome
 
 
 def test_palindrome_true():
